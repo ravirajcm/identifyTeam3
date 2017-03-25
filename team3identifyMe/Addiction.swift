@@ -214,7 +214,7 @@ class Addiction: UIViewController, ALAccordionSectionDelegate , UITableViewDeleg
         {
             let header = ALSingleLineHeaderView()
             header.titleLabel.text = "Addiction"
-            
+            header.backgroundColor = UIColor(red: 200.0/255.0, green: 145.0/255, blue: 0.0/255, alpha: 0.2)
             return header
     }()
     

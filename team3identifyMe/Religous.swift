@@ -218,7 +218,7 @@ class Religous: UIViewController, ALAccordionSectionDelegate , UITableViewDelega
         {
             let header = ALSingleLineHeaderView()
             header.titleLabel.text = "Religous"
-            
+            header.backgroundColor = UIColor(red: 169.0/255.0, green: 185.0/255, blue: 0.0/255, alpha: 0.2)
             return header
     }()
     

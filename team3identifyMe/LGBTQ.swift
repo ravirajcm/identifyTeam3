@@ -232,6 +232,8 @@ resourceCell.selectionStyle = UITableViewCellSelectionStyle.none
         {
             let header = ALSingleLineHeaderView()
             header.titleLabel.text = "LGBTQ"
+            header.iconImage.image = #imageLiteral(resourceName: "icAsset 148")
+            header.backgroundColor = UIColor(red: 3.0/255.0, green: 177.0/255, blue: 0.0/255, alpha: 0.2)
             
             return header
     }()

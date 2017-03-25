@@ -213,7 +213,7 @@ class SexualAssault: UIViewController, ALAccordionSectionDelegate , UITableViewD
         {
             let header = ALSingleLineHeaderView()
             header.titleLabel.text = "SexualAssault"
-            
+            header.backgroundColor = UIColor(red: 149.0/255.0, green: 0.0/255, blue: 193.0/255, alpha: 0.2)
             return header
     }()
     

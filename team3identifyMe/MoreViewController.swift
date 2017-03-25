@@ -10,9 +10,19 @@ import UIKit
 
 class MoreViewController: UIViewController {
 
+    
+    // IBOutlets
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var locationTextField: UITextField!
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var descriptionTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "More"
+        self.title = "Report Issue"
         // Do any additional setup after loading the view.
     }
 

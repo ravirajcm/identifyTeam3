@@ -225,7 +225,7 @@ class Aborginal: UIViewController, ALAccordionSectionDelegate , UITableViewDeleg
         {
             let header = ALSingleLineHeaderView()
             header.titleLabel.text = "Aborginal"
-            
+            header.backgroundColor = UIColor(red: 239.0/255.0, green: 33/255, blue: 0.0/255, alpha: 0.2)
             return header
     }()
     
