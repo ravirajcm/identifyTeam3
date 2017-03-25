@@ -37,7 +37,7 @@ class ALSingleLineHeaderView: UIView
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 17.0)
         label.textColor = UIColor.purple
-        label.textAlignment = .center
+        label.textAlignment = .left
 
         label.translatesAutoresizingMaskIntoConstraints = false
 
@@ -48,8 +48,8 @@ class ALSingleLineHeaderView: UIView
     
     let iconImage: UIImageView = {
         let image = UIImageView()
-        image.image = #imageLiteral(resourceName: "icAsset 148")
-       // image.frame = CGRect(x: 0, y: 0, width: 5.0, height: 5.0)
+       // image.image = #imageLiteral(resourceName: "icAsset 148")
+        image.frame = CGRect(x: 0, y: 0, width: 100, height: 25.0)
         image.contentMode = UIViewContentMode.scaleAspectFit;
         image.translatesAutoresizingMaskIntoConstraints = false
         return image

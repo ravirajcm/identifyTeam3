@@ -217,8 +217,21 @@ class Religous: UIViewController, ALAccordionSectionDelegate , UITableViewDelega
     let headerView: UIView =
         {
             let header = ALSingleLineHeaderView()
-            header.titleLabel.text = "Religous"
+            header.titleLabel.text = "            Religous"
             header.backgroundColor = UIColor(red: 169.0/255.0, green: 185.0/255, blue: 0.0/255, alpha: 0.2)
+            let tempImage:UIImageView = UIImageView()
+            tempImage.image = #imageLiteral(resourceName: "ic_rel")
+            tempImage.contentMode = UIViewContentMode.scaleAspectFit
+            tempImage.frame = CGRect(x: 20, y: 12.5, width: 30, height: 30)
+            header.addSubview(tempImage);
+            
+            let screenSize: CGRect = UIScreen.main.bounds
+            
+            let arrowImage:UIImageView = UIImageView()
+            arrowImage.image = #imageLiteral(resourceName: "ic_keyboard_arrow_right")
+            arrowImage.contentMode = UIViewContentMode.scaleAspectFit
+            arrowImage.frame = CGRect(x: (screenSize.width - 30) , y: 12.5, width: 30, height: 30)
+            header.addSubview(arrowImage);
             return header
     }()
     

@@ -18,12 +18,25 @@ class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataS
     let clientApiInstance = clientAPI.sharedInstance
     var refreshTimer: Timer!
     var eventNames = [String]()
+    var vc: ModalViewController? = nil
+    var filteredCategory:NSMutableArray = []
     
     // IBOutlets
     @IBOutlet weak var mainTableView: UITableView!
     @IBOutlet weak var filterStackView: UIStackView!
     @IBOutlet weak var filteredImagesViewHolder: UIView!
 
+    @IBAction func openFilter(_ sender: Any) {
+        
+        if self.vc == nil
+        {
+            self.vc = self.storyboard?.instantiateViewController(withIdentifier: "ModalViewController") as? ModalViewController
+            self.vc?.delegate = self
+        }
+        self.present(vc!, animated: true, completion: nil)
+        
+
+    }
     
 
     override func viewDidLoad() {
@@ -50,8 +63,18 @@ class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataS
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    func filterData() -> Void {
         self.mainTableView.reloadData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        
+        self.mainTableView.reloadData()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
     }
     
     // MARK: Refresh tableView on pull
@@ -80,6 +103,26 @@ class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataS
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 35
+    }
+    
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        let categoryID = self.clientApiInstance.eventsData?.arrayValue.map({$0["catid"].int})
+        let tempCategoryId = categoryID?[indexPath.row]
+        if self.filteredCategory.count>0 && !(self.filteredCategory as NSArray).contains(String(format:"%d",tempCategoryId!))
+        {
+            // Do something
+            return 0
+
+        }
+        
+        if self.filteredCategory.contains(String(describing: tempCategoryId))
+        {
+            return 0
+        }
+        
+        return 145
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

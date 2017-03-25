@@ -30,6 +30,7 @@ class ModalViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var internationSwitchOutlet: UISwitch!
     @IBOutlet weak var aborginalSwitchOutlet: UISwitch!
     @IBOutlet weak var addictionSwitchOutlet: UISwitch!
+    var delegate:HomeViewControler? = nil
     
     var arrayOfLabels = [UILabel]()
     
@@ -59,6 +60,7 @@ class ModalViewController: UIViewController, UIGestureRecognizerDelegate {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func doneButtonAction(_ sender: Any) {
+        delegate?.filterData()
         self.dismiss(animated: true, completion: nil)
     }
     @IBOutlet weak var religousSwitchAction: UISwitch!
@@ -67,46 +69,58 @@ class ModalViewController: UIViewController, UIGestureRecognizerDelegate {
     
     // MARK: Switches
     @IBAction func aborginalSwitchAction(_ sender: Any) {
-        if aborginalSwitchOutlet.isOn {
-
-            
-            
-            let filteredArray = self.clientApiInstance.eventsData?.arrayObject
-            
-            for id in filteredArray! {
-                 let categoryID = self.clientApiInstance.eventsData?.arrayValue.map({$0["catid"].int})
-                
-                // print("\(categoryID) id -> \(id)")
-                //match category id if its exist add it in new array set that array to the list
-                
-                let idAsInt = id as! Int
-                
-                
-                
-            }
-            
-            
-            
+        if (delegate?.filteredCategory.contains("2"))! {
+            delegate?.filteredCategory.remove("2")
         } else {
-            
+            delegate?.filteredCategory.add("2")
         }
     }
     
     @IBAction func lgbqtSwitchActionAction(_ sender: Any) {
+        if (delegate?.filteredCategory.contains("1"))! {
+            delegate?.filteredCategory.remove("1")
+        } else {
+            delegate?.filteredCategory.add("1")
+        }
     }
     
     @IBAction func religousSwitchButton(_ sender: Any) {
+        if (delegate?.filteredCategory.contains("3"))! {
+            delegate?.filteredCategory.remove("3")
+        } else {
+            delegate?.filteredCategory.add("3")
+        }
     }
     
     @IBAction func internationalSwitchAction(_ sender: Any) {
+        if (delegate?.filteredCategory.contains("5"))! {
+            delegate?.filteredCategory.remove("5")
+        } else {
+            delegate?.filteredCategory.add("5")
+        }
     }
     @IBAction func addictionSwitchAction(_ sender: Any) {
+        if (delegate?.filteredCategory.contains("4"))! {
+            delegate?.filteredCategory.remove("4")
+        } else {
+            delegate?.filteredCategory.add("4")
+        }
     }
     
     @IBAction func sexualAbuseSwitchAction(_ sender: Any) {
+        if (delegate?.filteredCategory.contains("6"))! {
+            delegate?.filteredCategory.remove("6")
+        } else {
+            delegate?.filteredCategory.add("6")
+        }
     }
     
     @IBAction func generalSwitchAction(_ sender: Any) {
+        if (delegate?.filteredCategory.contains("0"))! {
+            delegate?.filteredCategory.remove("0")
+        } else {
+            delegate?.filteredCategory.add("0")
+        }
     }
     
     

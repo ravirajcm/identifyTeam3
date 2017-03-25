@@ -224,8 +224,23 @@ class Aborginal: UIViewController, ALAccordionSectionDelegate , UITableViewDeleg
     let headerView: UIView =
         {
             let header = ALSingleLineHeaderView()
-            header.titleLabel.text = "Aborginal"
+            header.titleLabel.text = "            Aborginal"
             header.backgroundColor = UIColor(red: 239.0/255.0, green: 33/255, blue: 0.0/255, alpha: 0.2)
+            
+            let tempImage:UIImageView = UIImageView()
+            tempImage.image = #imageLiteral(resourceName: "icAsset 148")
+            tempImage.contentMode = UIViewContentMode.scaleAspectFit
+            tempImage.frame = CGRect(x: 20, y: 12.5, width: 30, height: 30)
+            header.addSubview(tempImage);
+            
+            let screenSize: CGRect = UIScreen.main.bounds
+            
+            let arrowImage:UIImageView = UIImageView()
+            arrowImage.image = #imageLiteral(resourceName: "ic_keyboard_arrow_right")
+            arrowImage.contentMode = UIViewContentMode.scaleAspectFit
+            arrowImage.frame = CGRect(x: (screenSize.width - 30) , y: 12.5, width: 30, height: 30)
+            header.addSubview(arrowImage);
+            
             return header
     }()
     
