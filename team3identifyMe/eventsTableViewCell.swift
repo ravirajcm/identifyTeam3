@@ -18,6 +18,8 @@ class eventsTableViewCell: UITableViewCell {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var sideBarLabel: UILabel!
     
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

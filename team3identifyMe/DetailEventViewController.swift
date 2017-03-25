@@ -16,17 +16,32 @@ class DetailEventViewController: UIViewController {
     @IBOutlet weak var eventDateLabel: UILabel!
     @IBOutlet weak var eventLocationLabel: UILabel!
     @IBOutlet weak var eventDescriptionTextField: UITextView!
-    
     @IBOutlet weak var cardViewForOpacity: UIView!
     
+    // MARK: Properities
+    var eventName = String()
+    var eventDate = String()
+    var eventTime = String()
+    var eventLocation = String()
+    var eventDescription = String()
+    var eventIcon = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        setUpView()
+    }
     
+    func setUpView() {
+        DispatchQueue.main.async {
+            self.eventNameLabel.text = self.eventName
+            self.eventDateLabel.text = self.eventDate
+            self.eventDescriptionTextField.text = self.eventDescription
+        }
+    }
 
     /*
     // MARK: - Navigation

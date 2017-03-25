@@ -33,6 +33,7 @@
 		596BB9241E8573BF00C45443 /* team3identifyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596BB9231E8573BF00C45443 /* team3identifyMeUITests.swift */; };
 		596BB9321E85747000C45443 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596BB9311E85747000C45443 /* MoreViewController.swift */; };
 		596BB9371E8576EA00C45443 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 596BB9361E8576EA00C45443 /* home.png */; };
+		596F1C581E860E1100415B99 /* apiJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F1C571E860E1100415B99 /* apiJSON.swift */; };
 		6830796D4C204753B174911B /* Pods_team3identifyMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F989AFC081A5AACB1E8AC525 /* Pods_team3identifyMe.framework */; };
 		91B55EC61D781E25617B1AC4 /* Pods_team3identifyMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0108B9F2F158078752B8FCF /* Pods_team3identifyMeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -87,6 +88,7 @@
 		596BB9251E8573BF00C45443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		596BB9311E85747000C45443 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		596BB9361E8576EA00C45443 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		596F1C571E860E1100415B99 /* apiJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiJSON.swift; sourceTree = "<group>"; };
 		7E456D47D37BF55FC8F61C85 /* Pods-team3identifyMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-team3identifyMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-team3identifyMe/Pods-team3identifyMe.debug.xcconfig"; sourceTree = "<group>"; };
 		8BD4DDA2352E360F64307AFF /* Pods-team3identifyMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-team3identifyMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-team3identifyMeUITests/Pods-team3identifyMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9E41D04D7E7CECEA4AB3E143 /* Pods-team3identifyMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-team3identifyMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-team3identifyMeTests/Pods-team3identifyMeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		596BB9001E8573BF00C45443 /* team3identifyMe */ = {
 			isa = PBXGroup;
 			children = (
+				596F1C561E860DFE00415B99 /* Model */,
 				59452EAF1E8582B50028AC49 /* View */,
 				59452EAE1E8582A50028AC49 /* Controllers */,
 				596BB9331E85769200C45443 /* Resources */,
@@ -244,6 +247,14 @@
 				596BB9361E8576EA00C45443 /* home.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		596F1C561E860DFE00415B99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				596F1C571E860E1100415B99 /* apiJSON.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		5C8F22490E0EF9FF682295D0 /* Pods */ = {
@@ -556,6 +567,7 @@
 				595CF6D61E85C9E6001D61A0 /* Aborginal.swift in Sources */,
 				595CF6DA1E85CA0A001D61A0 /* Addiction.swift in Sources */,
 				59452EB11E8582E30028AC49 /* eventsTableViewCell.swift in Sources */,
+				596F1C581E860E1100415B99 /* apiJSON.swift in Sources */,
 				595CF6CD1E85C86E001D61A0 /* ALDoubleLineHeaderView.swift in Sources */,
 				595CF6CF1E85C86E001D61A0 /* ALRemovableHeaderView.swift in Sources */,
 				595CF6DC1E85CA1E001D61A0 /* International.swift in Sources */,
