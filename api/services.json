@@ -1,0 +1,421 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "General",
+      "description": "A list of general events taking place at the college",
+      "building": [
+        {
+          "id": 0,
+          "name": "Algonquin College Student's Association",
+          "location": "Woodroffe Campus, Rm. E112 Algonquin College",
+          "phone": "(613) 727-4723",
+          "hoursofoperation": [
+            "Regular: Monday to Thursday 8:30 am to 7 pm",
+            "Other: Friday 8:30am to 5pm"
+          ],
+          "email": "studentsassociation@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "Egor Evseev",
+              "phone": "(613) 727-4723 x5293",
+              "designation": "President",
+              "email": "evseeve@algonquincollege.com"
+            },
+            {
+              "id": 1,
+              "name": "Victoria Ventura",
+              "phone": "(613) 727-4723 x2025",
+              "designation": "Vice President",
+              "email": "venturv@algonquincollege.com"
+            },
+            {
+              "id": 2,
+              "name": "Abby Sun",
+              "phone": "(613) 727-4723 x5335",
+              "designation": "Director",
+              "email": "suna@algonquincollege.com"
+            },
+            {
+              "id": 3,
+              "name": "Matthew Jerabek",
+              "phone": "(613) 727-4723 x5335",
+              "designation": "Director",
+              "email": "jerabem@algonquincollege.com"
+            },
+            {
+              "id": 4,
+              "name": "Lev Kozhevnikov",
+              "phone": "(613) 727-4723 x5328",
+              "designation": "Director",
+              "email": "kozhevl@algonquincollege.com"
+            },
+            {
+              "id": 5,
+              "name": "Brittin Blimkie",
+              "phone": "(613) 727-4723 x5651",
+              "designation": "Director",
+              "email": "blimkib@algonquincollege.com"
+            },
+            {
+              "id": 6,
+              "name": "Sarah Harder",
+              "phone": "(613) 727-4723 x2824",
+              "designation": "Director",
+              "email": "harders@algonquincollege.com"
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "title": "AC Hub",
+          "description": "The AC Hub (2nd floor, Student Commons) is a modern, open concept space designed to attract open minds. Devised as a one-stop access point for student engagement and a source for information, events, and workshops, the AC Hub welcomes all students and encourages them to become an integral part of the College’s community. This is not a Silent Study area."
+        },
+        {
+          "title": "Centre for Accessiblity",
+          "description": "The Centre for Accessible Learning is committed to ensuring our students have equal access at Algonquin College. We hope that you take advantage of our excellent services and supports. The CAL provides academic accommodations and educational support services for students who have permanent and/or temporary disabilities. With more than ten percent of the student population registering for services, our goal is to provide the necessary accommodations to equalize the opportunity for students to meet their essential course or program requirements. Additionally, interim accommodations may be provided to students who are in the process of being assessed for a disability. Services are confidential, free and voluntary. Students are, however, required to self-identify in order to access services. We are mandated by the Human Rights Commission’s Guidelines for Accommodating Persons with Disabilities, the Ontario Human Rights Code and Algonquin College Policy AC01. Learn more about how to register with the CAL."
+        },
+        {
+          "title": "Employment Support Service",
+          "description": "The Employment Support Centre provides job search assistance to students and graduates. We provide resume and cover letter review, interview preparation, networking tips, and job search strategies. We host a variety of recruitment and networking events and career fairs, as well as maintain an up-to-date electronic job posting board called HireAC that is exclusive to Algonquin students and graduates."
+        },
+        {
+          "title": "Health Services",
+          "description": "The College’s Health Services provides professional, confidential medical services. Physicians are available by appointment. Registered Nurses provide assessment and treatment of minor illnesses or injury with no appointment necessary. The clinic also employs a Mental Health Social Worker approximately 20 hours per week"
+        },
+        {
+          "title": "Counselling Services (Student Commons, 3rd Floor)",
+          "description": "Counselling Services offers confidential supportive counselling for a variety of issues that are unique to sexual and gender minority students. You can talk with any of our Positive Space trained counsellors regarding:<p>.Questioning your sexuality or gender identity.</p><p>2. Coming out to friends and family.</p><p>3. Bridging to peer supports within the college</p><p>4. Resources for students dealing with harassment or bullying, heterosexism or bi-, trans- or homophobia</p><p>5.Interpersonal conflicts</p><p>6. Relationship issues</p><p>7. Mental health, substance abuse or suicidal thoughts or feelings</p>"
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "he Algonquin Students’ Association (SA), established in 1970, is a non-profit corporation, with offices at all Algonquin College campuses.The SA is governed by a Board of Directors and assisted by a team of full-time staff. The board consists of student Directors who make all the key decisions that affect you, the student.They govern the management of the corporation and are your voice in the upper echelons of the college administration."
+          ]
+        },
+        {
+          "title": "Academic, Career, Personal Support",
+          "activities": [
+            "At Algonquin, we’re pleased to offer you the resources, services, and support to help you succeed during your time with us—and beyond—wherever life takes you! Whether you’re looking for academic help or other support, interested in social events or activities, or seeking job or volunteer opportunities, you’ll find the information you need through Student Support Services."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "LGBQT",
+      "description": "The lesbian, gay, bisexual, transgender, queer (LGBTQ) community at Algonquin College includes students, staff, and faculty from diverse backgrounds. .",
+      "building": [
+        {
+          "id": 0,
+          "name": "George Cole, Algonquin College Ombudsman",
+          "location": "Woodroffe Campus, Rm. E112 Algonquin College",
+          "phone": "(613) 727-4723",
+          "hoursofoperation": [
+            "Regular : Monday to Thursday 11 am to 6 pm",
+            "Other : Monday to Thursday 8 am to 6 pm"
+          ],
+          "email": "ombuds@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "George Cole",
+              "phone": "(613) 727-4723 x5306",
+              "designation": "Aboriginal Portfolio Manager",
+              "email": "obonsaa@algonquincollege.com"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Counselling Services (Student Commons, 3rd Floor)",
+              "description": "Counselling Services offers confidential supportive counselling for a variety of issues that are unique to sexual and gender minority students. You can talk with any of our Positive Space trained counsellors regarding:<p>.Questioning your sexuality or gender identity.</p><p>2. Coming out to friends and family.</p><p>3. Bridging to peer supports within the college</p><p>4. Resources for students dealing with harassment or bullying, heterosexism or bi-, trans- or homophobia</p><p>5.Interpersonal conflicts</p><p>6. Relationship issues</p><p>7. Mental health, substance abuse or suicidal thoughts or feelings</p>"
+            },
+            {
+              "title": "Algonquin Students’ Association Pride Centre",
+              "description": "The Pride Centre is a safe, open, inclusive, non-discriminatory space for all students of Algonquin College no matter their sexual orientation or gender identity. The Pride Centre is a drop-in space that provides a safe and welcoming environment and offers peer support, resources, events, education, and more.Hours and Location: The Pride Centre is open Monday to Friday, 11am-4pm, and is located in B102."
+            },
+            {
+              "title": "Algonquin QSA",
+              "description": "An Algonquin Students’ Alliance club that has weekly meet-ups, movie nights, events, support and resources.  New members can join through Facebook."
+            },
+            {
+              "title": "University of Ottawa Pride Centre",
+              "description": "A university group that often runs joint events with the AlgonquinQSA and the Carleton GLBTQ Centre for Sexual and Gender Diversity. They host movie nights, pride events, discussion groups and have a drop-in centre.<p>University of Ottawa Pride Centre</p><p>85 University Private – Room 215E</p><p>(613) 562-5800 x3161</p>"
+            },
+            {
+              "title": "Centretown Community Health Centre",
+              "description": "A variety of groups and services for the LGBTQ+ community. Available: <a href=http://www.centretownchc.org/en/programs/lgbtq.aspx>http://www.centretownchc.org/en/programs/lgbtq.aspx</a>."
+            },
+            {
+              "title": "Kind (formerly Pink Triangle Services)",
+              "description": "Kind is a not-for-profit registered charity and social service agency providing peer support, educational, research and advocacy services for all gay, lesbian, bisexual, trans, two-spirit and queer (GLBTTQ) persons in the National Capital Region. Available online: <a href=http://kindspace.ca/>http://kindspace.ca/</a>"
+            },
+            {
+              "title": "Youth Services Bureau",
+              "description": "Ottawa Youth Services Bureau offers a weekly evening drop-in group for LGBTQ youth up to age 25.  This is an informal, social group that also can offer support for housing, mental health and other issues. Available online:<a href=http://www.ysb.on.ca/index.php?page=glbttq-youth-drop-in&hl=eng>http://www.ysb.on.ca/index.php?page=glbttq-youth-drop-in&hl=eng</a>"
+            }
+          ]
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "Monthly potlucks, feasts and celebrations (Louis Riel Day, Inuit Celebration, etc.)",
+            "Elder visits, traditional teachings, guest speakers and ceremonies",
+            "Drum circles, art and craft workshops facilitated by students or local artists",
+            "Movies, board games, hockey game nights, off campus activities",
+            "All-Aboriginal Intramural sports teams (Basketball, floor hockey, badminton, etc.)"
+          ]
+        },
+        {
+          "title": "Academic, Career, Personal Support",
+          "activities": [
+            "Information on Aboriginal bursaries, scholarships and other funding support",
+            "Workshops and individual support with study skills, time management, tutors",
+            "Career, academic or personal counselling with an Aboriginal Counsellor",
+            "Aboriginal Education to Employment program and job listings",
+            "Referrals to Aboriginal services (housing, counselling, employment etc.)",
+            "Support for Cree students from the Cree School Board Liaison"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aboriginal",
+      "description": "The lesbian, gay, bisexual, transgender, queer (LGBTQ) community at Algonquin College includes students, staff, and faculty from diverse backgrounds. .",
+      "building": [
+        {
+          "id": 0,
+          "name": "George Cole, Algonquin College Ombudsman",
+          "location": "Woodroffe Campus, Rm. E112 Algonquin College",
+          "phone": "(613) 727-4723",
+          "hoursofoperation": [
+            "Regular : Monday to Thursday 11 am to 6 pm",
+            "Other : Monday to Thursday 8 am to 6 pm"
+          ],
+          "email": "ombuds@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "Elena Abel",
+              "phone": "(613) 727-4723 x5127",
+              "designation": "Aboriginal Event Coordinator",
+              "email": "abele@algonquincollege.com"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Aboriginal Student Success Specialist",
+              "description": "Support to students with academic concerns Information on, or referrals to, the following: community services, personal counselling, career planning and employment information Information about Aboriginal bursaries, scholarships, student loans, and funding for First Nations, Status, non-Status, Inuit and Métis students Weekly Lunch & Learn Activities to round out your college experience Work with students in areas such as time-management and study skills"
+            }
+          ]
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "Monthly potlucks, feasts and celebrations (Louis Riel Day, Inuit Celebration, etc.)",
+            "Elder visits, traditional teachings, guest speakers and ceremonies",
+            "Drum circles, art and craft workshops facilitated by students or local artists",
+            "Movies, board games, hockey game nights, off campus activities",
+            "All-Aboriginal Intramural sports teams (Basketball, floor hockey, badminton, etc.)"
+          ]
+        },
+        {
+          "title": "Academic, Career, Personal Support",
+          "activities": [
+            "Information on Aboriginal bursaries, scholarships and other funding support",
+            "Workshops and individual support with study skills, time management, tutors",
+            "Career, academic or personal counselling with an Aboriginal Counsellor",
+            "Aboriginal Education to Employment program and job listings",
+            "Referrals to Aboriginal services (housing, counselling, employment etc.)",
+            "Support for Cree students from the Cree School Board Liaison"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Religous",
+      "description": "Religous communities at Algonquin College.",
+      "building": [
+        {
+          "id": 0,
+          "name": "Spirtual Centre",
+          "location": "Woodroffe Campus, Rm. E211 Algonquin College",
+          "phone": "(613) 727-4723 Ext:6456",
+          "hoursofoperation": [
+            "Regular : Monday to Friday 8 am to 10 pm"
+          ],
+          "email": "studentsassociation@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "Shelley Neilson",
+              "phone": "(613) 727-4723 x6456",
+              "designation": "Spiritual Centre Coordinator",
+              "email": "neilsos@algonquincollege.com"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Religous Services",
+              "description": "A variety of religous services is being offered within the spirtual centre."
+            }
+          ]
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "The Spiritual Centre at Algonquin College exists to provide a collaborative environment of positive spiritual and religious engagement, diversity, and respect. The Spiritual Centre strives to celebrate, support, and nurture the spiritual and religious well-being of everyone in the Algonquin College community. Come visit us! The Spiritual Centre is located on the 2nd floor of Student Commons, Room E211."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Addiction",
+      "description": "Also known as the umbrella project. Harm reduction is an umbrella term for policies and practices focused on reducing the problematic effects of alcohol and other drug use.",
+      "building": [
+        {
+          "id": 0,
+          "name": "Algonquin College",
+          "location": "Woodroffe Campus, Algonquin College",
+          "phone": "(613) 727-4723",
+          "hoursofoperation": [
+            "Regular : Monday to Friday 8 am to 4 pm"
+          ],
+          "email": "studentsassociation@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "Polly Leonard",
+              "phone": "(613) 727-4723",
+              "designation": "Harm Reduction Project Manager",
+              "email": "leonarp@algonquincollege.com."
+            }
+          ],
+          "resources": [
+            {
+              "title": "Harm Reducation Consultation",
+              "description": "Call or visit the Welcome Centre and ask for a harm reduction consultation. The Welcome Centre is located on the 3rd floor of Student Commons (E Building). You can also make an appointment by phone at 613-727-4723 ext. 7200."
+            }
+          ]
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "Harm reduction is an umbrella term for policies and practices focused on reducing the problematic effects of alcohol and other drug use.Through compassion, objectivity and non-judgement we aim to reduce the harm and unwanted consequences associated with alcohol and other drug use."
+          ]
+        },
+        {
+          "title": "Personal Support",
+          "activities": [
+            "Counselling Services provides confidential, non-judgmental, free counselling for students. To connect with a counsellor, call 613-727-4723 ext.7200, or stop by the Welcome Centre reception desk (3rd floor, Student Commons, E building)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "International",
+      "description": "Event for International Students Attending Algonquin College",
+      "building": [
+        {
+          "id": 0,
+          "name": "Algonquin College ",
+          "location": "Woodroffe Campus Algonquin College",
+          "phone": "(613) 727-4723 Ext:5000",
+          "hoursofoperation": [
+            "Regular : Monday to Friday 8 am to 4 pm"
+          ],
+          "email": "studentsassociation@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "Ernest Mulvey",
+              "phone": "(613) 727-4723 x5017",
+              "designation": "Director of the IEC",
+              "email": "mulveye@algonquincollege.com"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Academic Support",
+              "description": "Student Support Services has launched an Essential Study Skills website that offers tips, videos, activities, and tools to help achieve academic success, and covers practical skills such as time management, stress management, reading and note taking, and studying and test-taking. It also includes tools and information to help students cope with the demands of college life. The Essential Study Skills site is a collaborative project from Counselling Services, the Centre for Students with Disabilities, and the Library. More units and content will continue to be added. Check below to check it out!"
+            },
+            {
+              "title": "International Student Orientation",
+              "description": "Attending the EAP International Orientation will give you an opportunity to make new friends, meet the Coordinator, learn about college services and heal insurance. Once you receive your letter of acceptance, please contact the International Education Centre (IEC) to book your EAP placement test and your EAP Orientation."
+            }
+          ]
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "Welcome, International Student! Here’s where you’ll find all the resources, services, and support you need to make the most of your experience at Algonquin College. If you’re looking for ways to improve your academic performance or become more involved in campus life, the IEC team will point you in the right direction. We’ll also help you manage your budget, find suitable work opportunities, make friends with other International and Canadian students, and stay safe and healthy during your time here in Ottawa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sexual Assault",
+      "description": "Sexual Assault Victims and services at Algonquin College ",
+      "building": [
+        {
+          "id": 0,
+          "name": "Security Services",
+          "location": "Woodroffe Campus, Rm. E211 Algonquin College",
+          "phone": "(613) 727-4723 Ext:6456",
+          "hoursofoperation": [
+            "Regular : 24 Hours"
+          ],
+          "email": "studentsassociation@algonquincollege.com",
+          "staff": [
+            {
+              "id": 0,
+              "name": "Shelley Styles",
+              "phone": "(613) 727-4723 Ext:6471",
+              "designation": "Director, Student Support Services",
+              "email": "styless@algonquincollege.com"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Sexual Assault Groups",
+              "description": "Sexual Assault Victims join together to create meetups."
+            }
+          ]
+        }
+      ],
+      "overview": [
+        {
+          "title": "Student Events and Activities",
+          "activities": [
+            "Events held for the students. Activites gatering students together etc.."
+          ]
+        },
+        {
+          "title": "Personal Support",
+          "activities": [
+            "Personal Support services offered such as couselling, and other services. Secuirty avaliable on campus 24 hours a day. "
+          ]
+        }
+      ]
+    }
+  ]
+}
