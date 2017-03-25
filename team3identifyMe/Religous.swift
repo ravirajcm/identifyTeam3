@@ -227,11 +227,11 @@ class Religous: UIViewController, ALAccordionSectionDelegate , UITableViewDelega
             
             let screenSize: CGRect = UIScreen.main.bounds
             
-            let arrowImage:UIImageView = UIImageView()
-            arrowImage.image = #imageLiteral(resourceName: "ic_keyboard_arrow_down_2x")
-            arrowImage.contentMode = UIViewContentMode.scaleAspectFit
-            arrowImage.frame = CGRect(x: (screenSize.width - 60) , y: 12.5, width: 30, height: 30)
-            header.addSubview(arrowImage);
+//            let arrowImage:UIImageView = UIImageView()
+//            arrowImage.image = #imageLiteral(resourceName: "ic_keyboard_arrow_down_2x")
+//            arrowImage.contentMode = UIViewContentMode.scaleAspectFit
+//            arrowImage.frame = CGRect(x: (screenSize.width - 60) , y: 12.5, width: 30, height: 30)
+//            header.addSubview(arrowImage);
             return header
     }()
     

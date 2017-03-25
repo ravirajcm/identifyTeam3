@@ -49,26 +49,26 @@ class DetailEventViewController: UIViewController {
                 
             case 0:
                 self.iconImage.image = #imageLiteral(resourceName: "Asset 948")
-                self.cardView.backgroundColor = UIColor.cyan.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 0, green: 0.7, blue: 0.7, alpha: 0.1)
             
             case 1:
                 self.iconImage.image = #imageLiteral(resourceName: "icAsset 348")
-                self.cardView.backgroundColor = UIColor.green.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 3.0/255.0, green: 177.0/255, blue: 0.0/255, alpha: 0.1)
             case 2:
                 self.iconImage.image = #imageLiteral(resourceName: "icAsset 148")
-                self.cardView.backgroundColor = UIColor.red.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 239.0/255.0, green: 33/255, blue: 0.0/255, alpha: 0.1)
             case 3:
                 self.iconImage.image = #imageLiteral(resourceName: "ic_rel")
-                self.cardView.backgroundColor = UIColor.yellow.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 169.0/255.0, green: 185.0/255, blue: 0.0/255, alpha: 0.1)
             case 4:
                 self.iconImage.image = #imageLiteral(resourceName: "icAsset 648")
-                self.cardView.backgroundColor = UIColor.orange.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 200.0/255.0, green: 145.0/255, blue: 0.0/255, alpha: 0.1)
             case 5:
                 self.iconImage.image = #imageLiteral(resourceName: "icAsset 548")
-                self.cardView.backgroundColor = UIColor.blue.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 0.0/255.0, green: 1.0/255, blue: 193.0/255, alpha: 0.1)
             case 6:
                 self.iconImage.image = #imageLiteral(resourceName: "icAsset 748")
-                self.cardView.backgroundColor = UIColor.purple.withAlphaComponent(0.3)
+                self.cardView.backgroundColor = UIColor(red: 149.0/255.0, green: 0.0/255, blue: 193.0/255, alpha: 0.1)
             default:
                 break
             }
