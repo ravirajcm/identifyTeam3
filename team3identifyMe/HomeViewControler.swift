@@ -138,32 +138,8 @@ class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataS
                 detailVC.eventDate = (eventDate?[(indexPath as NSIndexPath).row])!
                 detailVC.eventTime = (eventTime?[(indexPath as NSIndexPath).row])!
                 detailVC.eventDescription = (eventDescription?[(indexPath as NSIndexPath).row])!
+                detailVC.categoryId = (categoryID?[(indexPath as NSIndexPath).row])!
                 
-                switch (categoryID?[(indexPath as NSIndexPath).row])! {
-                case 0:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "Asset 948")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.cyan
-                case 1:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "icAsset 348")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.green
-                case 2:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "icAsset 148")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.red
-                case 3:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "ic_rel")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.yellow
-                case 4:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "icAsset 648")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.orange
-                case 5:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "icAsset 548")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.blue
-                case 6:
-                    detailVC.iconImageView.image = #imageLiteral(resourceName: "icAsset 748")
-                    detailVC.cardViewForOpacity.backgroundColor = UIColor.purple
-                default:
-                    break
-                }
             }
         }
     }
