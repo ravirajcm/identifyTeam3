@@ -142,25 +142,25 @@ class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataS
             switch categoryID?[indexRowPath] {
             case 0?:
                 cell.iconImage.image = #imageLiteral(resourceName: "Asset 948")
-                cell.sideBarLabel.backgroundColor = UIColor.cyan
+                cell.sideBarLabel.backgroundColor = UIColor(red: 0, green: 0.7, blue: 0.7, alpha: 1.0) // UIColor.cyan
             case 1?:
                 cell.iconImage.image = #imageLiteral(resourceName: "icAsset 348")
-                cell.sideBarLabel.backgroundColor = UIColor.green
+                cell.sideBarLabel.backgroundColor = UIColor(red: 3.0/255.0, green: 177.0/255, blue: 0.0/255, alpha: 1)
             case 2?:
                 cell.iconImage.image = #imageLiteral(resourceName: "icAsset 148")
-                cell.sideBarLabel.backgroundColor = UIColor.red
+                cell.sideBarLabel.backgroundColor = UIColor(red: 239.0/255.0, green: 33/255, blue: 0.0/255, alpha: 1)
             case 3?:
                 cell.iconImage.image = #imageLiteral(resourceName: "ic_rel")
-                cell.sideBarLabel.backgroundColor = UIColor.yellow
+                cell.sideBarLabel.backgroundColor = UIColor(red: 169.0/255.0, green: 185.0/255, blue: 0.0/255, alpha: 1)
             case 4?:
                 cell.iconImage.image = #imageLiteral(resourceName: "icAsset 648")
-                cell.sideBarLabel.backgroundColor = UIColor.orange
+                cell.sideBarLabel.backgroundColor = UIColor(red: 200.0/255.0, green: 145.0/255, blue: 0.0/255, alpha: 1)
             case 5?:
                 cell.iconImage.image = #imageLiteral(resourceName: "icAsset 548")
-                cell.sideBarLabel.backgroundColor = UIColor.blue
+                cell.sideBarLabel.backgroundColor = UIColor(red: 0.0/255.0, green: 1.0/255, blue: 193.0/255, alpha: 1)
             case 6?:
                 cell.iconImage.image = #imageLiteral(resourceName: "icAsset 748")
-                cell.sideBarLabel.backgroundColor = UIColor.purple
+                cell.sideBarLabel.backgroundColor = UIColor(red: 149.0/255.0, green: 0.0/255, blue: 193.0/255, alpha: 1)
             default:
                 break
             }
