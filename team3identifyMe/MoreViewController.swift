@@ -9,7 +9,6 @@
 import UIKit
 
 class MoreViewController: UIViewController {
-
     
     // IBOutlets
     @IBOutlet weak var emailLabel: UILabel!

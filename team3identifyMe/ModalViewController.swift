@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ModalViewController: UIViewController, UIGestureRecognizerDelegate {
 
     // MARK: Properities
     var tapGesuture: UITapGestureRecognizer!
+    let clientApiInstance = clientAPI.sharedInstance
     
     // IBOutlets
     @IBOutlet weak var modalView: UIView!
@@ -35,7 +37,6 @@ class ModalViewController: UIViewController, UIGestureRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         modalView.layer.cornerRadius = 12.5
-        
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -65,8 +66,30 @@ class ModalViewController: UIViewController, UIGestureRecognizerDelegate {
     
     
     // MARK: Switches
-    
     @IBAction func aborginalSwitchAction(_ sender: Any) {
+        if aborginalSwitchOutlet.isOn {
+
+            
+            
+            let filteredArray = self.clientApiInstance.eventsData?.arrayObject
+            
+            for id in filteredArray! {
+                 let categoryID = self.clientApiInstance.eventsData?.arrayValue.map({$0["catid"].int})
+                
+                // print("\(categoryID) id -> \(id)")
+                //match category id if its exist add it in new array set that array to the list
+                
+                let idAsInt = id as! Int
+                
+                
+                
+            }
+            
+            
+            
+        } else {
+            
+        }
     }
     
     @IBAction func lgbqtSwitchActionAction(_ sender: Any) {

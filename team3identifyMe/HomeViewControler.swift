@@ -9,6 +9,10 @@
 import UIKit
 
 class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    
+    // MARK: Shared Instance
+    static let sharedInstance: HomeViewControler = HomeViewControler()
     
     // MARK: Properities
     let clientApiInstance = clientAPI.sharedInstance
@@ -117,7 +121,6 @@ class HomeViewControler: UIViewController, UITableViewDelegate, UITableViewDataS
             default:
                 break
             }
-            
         }
         return cell
     }
