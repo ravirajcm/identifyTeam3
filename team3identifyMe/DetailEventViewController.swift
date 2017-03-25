@@ -74,7 +74,30 @@ class DetailEventViewController: UIViewController {
             }
         }
     }
-
     
+    
+    @IBAction func shareActionButton(_ sender: UIButton) {
+        print("Tapped")
+//        let textToShare = eventName
+        let eventDateShare = eventDate
+        let eventDescriptionShare = eventDescription
+//        if let myWebsite = self.iconImage {
+//            let objectsToShare = [textToShare, eventDate, eventDescriptionShare, myWebsite] as [Any]
+//    }
+        
+        
+           let myWebsite = eventName //Enter link to your app here
+            let objectsToShare = [myWebsite, eventDescriptionShare, eventDate, #imageLiteral(resourceName: "icAsset 148") ?? #imageLiteral(resourceName: "Asset 948")] as [Any]
+            let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+            
+            //Excluded Activities
+            activityVC.excludedActivityTypes = [UIActivityType.airDrop, UIActivityType.addToReadingList]
+            //
+            
+            activityVC.popoverPresentationController?.sourceView = sender
+            self.present(activityVC, animated: true, completion: nil)
+        
+
+    }
 
 }
