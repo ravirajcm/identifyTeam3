@@ -23,6 +23,8 @@ class MoreViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Report Issue"
         // Do any additional setup after loading the view.
+        emailLabel.layer.addBorder(edge: UIRectEdge.bottom, color: UIColor.darkGray, thickness: 0.5)
+        //label.layer.addBorder(edge: UIRectEdge.bottom, color: UIColor.darkGray, thickness: 0.5)
     }
 
     override func didReceiveMemoryWarning() {
