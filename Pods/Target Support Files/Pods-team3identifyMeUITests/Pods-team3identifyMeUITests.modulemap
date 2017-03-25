@@ -1,0 +1,6 @@
+framework module Pods_team3identifyMeUITests {
+  umbrella header "Pods-team3identifyMeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
