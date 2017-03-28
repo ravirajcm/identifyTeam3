@@ -1,5 +1,5 @@
 ## mConnections
-######Great way for people, student around the globe to identify the services offered by community, school or government.
+###Great way for people, student around the globe to identify the services offered by community, school or government.
 
 The idea for this application came from a friend who was working at Cambrian College in Sudbury, Ontario in the college Aboriginal Department.
 
@@ -47,9 +47,3 @@ Gmail  : [Wils0751@algonquinlive.com](mailto:Wils0751@algonquinlive.com)
 ####Priscila Ribas da Costa 
 Github  : [http://github.com/riba0007](http://github.com/riba0007)
 Gmail  : [riba0007@algonquinlive.com](mailto:riba0007@algonquinlive.com)
-
-
-
-
-
-
