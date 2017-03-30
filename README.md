@@ -1,5 +1,5 @@
 ## mConnections
-######Great way for people, student around the globe to identify the services offered by community, school or government.
+###### Great way for people, student around the globe to identify the services offered by community, school or government.
 
 The idea for this application came from a friend who was working at Cambrian College in Sudbury, Ontario in the college Aboriginal Department.
 
@@ -9,7 +9,7 @@ The problem facing the department is that many Aboriginal students aren’t awar
 
 Taking this idea, why not have an application that not only focuses on Aboriginal students, but other groups as well such as LGBQT, religious minorities, international students.
 
-**What is mConnection ? **
+** What is mConnection ? **
 
 ![Alt text](Design/screenshots/splash.jpg?raw=true "mConnections | great tool to identify services provided by school, college, university or community")
 
@@ -21,7 +21,7 @@ Taking this idea, why not have an application that not only focuses on Aborigina
 ![Alt text](Design/screenshots/mConnection_inspiration.jpg?raw=true "What inspired us ?")
 
 
-**Hackathon**
+** Hackathon **
 
 This project is created as a part of hackathon GeekSpeakEcommerce Whitby, Canada
 
@@ -30,22 +30,26 @@ This project is created as a part of hackathon GeekSpeakEcommerce Whitby, Canada
 
 ## Contributors
 
-####Raviraj Mangukiya
+#### Raviraj Mangukiya
 
 Github  : [http://github.com/ravirajcm](http://github.com/ravirajcm)
+
 Gmail  : [ravirajcm@gmail.com](mailto:ravirajcm@gmail.com)
 Website: [http://iamraviraj.com](http://iamraivraj.com)
 
-####Geemakun Storey
+#### Geemakun Storey
 Github  : [http://github.com/stor0095](http://github.com/stor0095)
+
 Gmail  : [stor0095@algonquinlive.com](mailto:stor0095@algonquinlive.com)
 
-####Shannon Wilson
+#### Shannon Wilson
 Github  : [http://github.com/Wils0751](http://github.com/Wils0751)
+
 Gmail  : [Wils0751@algonquinlive.com](mailto:Wils0751@algonquinlive.com)
 
-####Priscila Ribas da Costa 
+#### Priscila Ribas da Costa 
 Github  : [http://github.com/riba0007](http://github.com/riba0007)
+
 Gmail  : [riba0007@algonquinlive.com](mailto:riba0007@algonquinlive.com)
 
 
