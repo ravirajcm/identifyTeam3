@@ -76,7 +76,7 @@ class ServicesViewController: ALAccordionController {
             "cache-control": "no-cache",
             ]
         // Create the request object and pass in your url
-        let request = NSMutableURLRequest(url: NSURL(string: "https://raw.githubusercontent.com/stor0095/identifyTeam3/master/api/services.json?token=ABkzu2m7-wuqC0tYvcIuk-Dk9or8lLPsks5Y3zFSwA%3D%3D")! as URL,
+        let request = NSMutableURLRequest(url: NSURL(string: "https://dl.dropboxusercontent.com/s/k47cjzlgrd9cg76/services.json")! as URL,
                                           cachePolicy: .useProtocolCachePolicy,
                                           timeoutInterval: 10.0)
         request.httpMethod = "GET"

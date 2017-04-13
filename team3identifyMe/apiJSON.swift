@@ -22,7 +22,7 @@ final class clientAPI {
     func fetchEventsData() {
         // https://raw.githubusercontent.com/stor0095/identifyTeam3/master/api/events.json?token=ANnMX0zJyhgsPwF5lRcgWxO2cwjTopJAks5Y3w4AwA%3D%3D
         
-        Alamofire.request("https://raw.githubusercontent.com/stor0095/identifyTeam3/master/api/events.json?token=ANnMX0zJyhgsPwF5lRcgWxO2cwjTopJAks5Y3w4AwA%3D%3D", method: .get).validate().responseJSON { response in
+        Alamofire.request("https://dl.dropboxusercontent.com/s/syy0d6z53ef0fw4/events.json", method: .get).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
